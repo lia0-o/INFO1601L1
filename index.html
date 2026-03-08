@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<!---------------------------------Task 4--------------------------------->
+    <head>
+         <style>
+    body {
+      margin: 30px;      /* space around the page */
+      padding: 20px;     /* space inside the page */
+      border: 2px solid rgb(219, 219, 219); /* just to show the effect */
+    }
+    p {
+      margin-bottom: 15px; /* spacing between paragraphs */
+    }
+  </style>
+        <meta name="description" content="My first website">
+        <meta name="keywords" content="INFO1601, uwi, web">
+        <!--instructs the browser that the document is written in english-->
+        <title>My First Page</title> 
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align:center">My First Website :)!</h1>
+        </header>
+
+        <article>
+<!---------------------------------Task 6--------------------------------->
+            <section>
+                <p>Welcome</p>
+            </section>
+
+            <section>
+<!---------------------------------Task 5--------------------------------->
+
+                <b>bold</b> <br>
+                <strong>Strong text</strong><br>                <mark>highlighted text</mark> <br>
+                <u>underlined</u> <br>
+                <s>strikethrough</s>
+                Text<sub>subscript</sub><br>
+                Text<sup>superscript</sup><br>        
+            </section>
+
+            <section>
+                <code>code</code><br>
+                <samp>Sample output from a computer program</samp><br>                <kbd>Keyboard input</kbd>
+            </section>
+
+            <section>
+                <em>Emphasized text</em><br>
+                <var>variable x</var><br>
+                <cite>citation</cite><br>
+                <dfn>definition</dfn>
+            </section>
+<!---------------------------------Task 7--------------------------------->
+            <section>
+                <figure>
+                    <img src="https://placecats.com/200/200 " alt="a random cat">
+                    <figcaption>Fig 1. A random cat</figcaption>
+                </figure>
+           </section>
+
+           <section>
+                <details>
+                <summary>Hobbies</summary>
+                <ul>
+                    <li>Music</li>
+                    <li>Dancing</li>
+                    <li>Sketching</li>
+                    <li>Watching Shows</li>
+                    <li>Coding</li>
+                </ul>
+               </details>
+            </section>
+
+            <dialog id="mydialog">
+                This is a dialog
+                <a href="javascript:mydialog.removeAttribute('open')">close</a>
+            </dialog>
+
+            <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+                Open Dialog
+            </a>
+        </article>
+
+    </body>
+</html>
